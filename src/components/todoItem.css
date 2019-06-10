@@ -1,0 +1,48 @@
+
+.todoItem-completed {
+    text-decoration: line-through;
+    transition: all 0.5s;
+}
+.todoItem-completed > p {
+    opacity: .3;
+    transition: all 0.5s;
+}
+
+.todoItem {
+    font: 14px Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #4d4d4d;
+    border-bottom: 1px solid #4d4d4d12;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+
+.todoItem >p {
+    margin: 15px;
+    cursor: pointer;
+}
+
+.todoItem >img {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.close {
+    margin-left: auto!important;
+    margin-right: 50px;
+    opacity: .3;
+    transform: scale(.7);
+    transition: 0.5s;
+}
+
+.close:hover {
+    opacity: 1;
+    display: block;
+    transition: all 0.5s;
+    transform: scale(1);
+    
+}
